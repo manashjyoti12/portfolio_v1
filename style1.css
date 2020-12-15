@@ -1,0 +1,234 @@
+.s1{
+	width: 100%;
+	height: 100%;
+	
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+ .right{
+ 	
+ }
+
+.writings{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.writing{
+	font-size: 60px;
+	font-weight: bold;
+	margin-left: 70%;
+	font-family: 'Kaushan Script', cursive;
+	color: #FFBC40;
+}
+
+.r1{
+	margin-top: 1rem;
+}
+.r2{
+	margin-top: 1rem;
+}
+
+
+.img{
+	width: 200px;
+}
+
+.imgs{
+	width: 480px;
+}
+
+.a a{
+	text-decoration: none;
+}
+
+
+					/*FOR desktop larger than normal start*/
+
+
+@media (min-width: 1130px) {
+
+.img{
+	width: 200px;
+}
+
+.imgs{
+	width: 560px;
+}
+
+}
+
+				/*FOR desktop larger than normal END*/
+
+
+
+@media (min-width: 1390px) {
+
+
+.img{
+	width: 280px;
+}
+
+.imgs{
+	width: 680px;
+}
+
+}
+
+
+				/*FOR desktop extra larger than normal start*/
+
+
+@media (min-width: 1680px) {
+
+
+.img{
+	width: 400px;
+}
+
+.imgs{
+	width: 900px;
+}
+
+}
+
+
+				/*FOR desktop extra larger than normal END*/
+
+
+
+						/*for tab version*/
+
+@media (max-width: 1000px) {
+
+.writing{
+	font-size: 50px;
+	margin-left: 60%;
+}
+
+.img{
+	width: 160px;
+}
+
+.imgs{
+	width: 360px;
+	padding-top: 1rem;
+}
+
+
+}
+
+		/* tab version end */	
+
+		/* mobile version start */	
+
+
+@media (max-width: 515px) {
+
+.writing{
+	display: none;
+}
+
+.img{
+	width: 160px;
+}
+
+.imgs{
+	width: 380px;
+	padding-top: 0rem;
+}
+
+
+}
+
+
+@media (max-width: 764px) {
+
+
+.writing{
+	display: none;
+}
+
+.writings{
+	color: #FFBC40;
+}
+
+}
+
+		/* for small mobile vision */
+
+
+@media (max-width: 420px) {
+
+.writing{
+	display: none;
+}
+
+.img{
+	width: 160px;
+}
+
+.imgs{
+	width: 280px;
+	padding-top: 0rem;
+}
+
+.c1{
+	padding: 1rem;
+	text-align: center;
+
+}
+
+}
+
+
+
+  					/* FOOTER START */
+
+
+.sixth-section{
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	margin-top: ;
+	color: white;
+}
+
+.r3 .img1{
+ 	width: 80px;
+ }
+
+ .p1{
+font-size: 15px;
+}
+
+.p3 .fa { 
+	color: #FFBC40;
+ }
+  .h1{
+ 	color: #FFBC40;
+ 	font-weight: bolder;
+ 	font-size: 20px;
+ 	padding-top: 2%;
+ }
+
+ .p4{
+ 	margin-left: 2rem;
+ }
+
+ .r3{
+ 	margin-left: 2rem;
+ }
+
+.p2{font-size: 20px;
+	font-weight: bolder;
+	color: #FFBC40;
+	padding-top: 1rem;
+}
+
+.r3 a{
+	color: #fff
+}
+
+  					/* FOOTER END */

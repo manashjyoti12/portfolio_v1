@@ -1,0 +1,193 @@
+.s1{
+	height: 100%;
+	width: 100%;
+
+	margin-top: 5rem;
+	padding-left: 8rem;
+	padding-right: 8rem;
+
+	margin-bottom: 8rem;
+}
+
+.r2{
+	margin-top: 3rem;
+}
+
+.r3{
+	margin-top: 3rem;
+}
+
+.writings{
+	font-size: 20px;
+	font-weight: bolder;
+
+}
+
+.topic{
+	margin-bottom: 3rem;
+	font-size: 60px;
+	font-family: 'Kaushan Script', cursive;
+	color: #FFBC40;
+}
+.topic1{
+	margin-bottom: 3rem;
+	font-size: 60px;
+	font-family: 'Kaushan Script', cursive;
+	color: #FFBC40;
+}
+
+
+.img{
+	width: 200px;
+}
+
+.a a{
+	text-decoration: none;
+}
+
+			/*FOR desktop larger than normal start*/
+
+@media (min-width: 1440px) {
+.img{
+	width: 280px;
+}
+
+.topic{
+font-size: 80px;
+}
+.topic1{
+font-size: 80px;
+}
+
+}
+
+
+			/*FOR desktop extra larger than normal start*/
+
+@media (min-width: 1770px) {
+.img{
+	width: 380px;
+}
+
+}
+
+
+		/*FOR desktop larger than normal end*/
+
+		/*for tab version*/
+
+@media (max-width: 1000px) {
+
+.img{
+	width: 200px;
+}
+.topic{
+font-size: 50px;
+}
+.topic1{
+font-size: 30px;
+
+}
+.writings{
+	font-size: 15px;
+}
+
+}
+
+		/* tab version end */	
+
+		/* mobile version start */	
+
+
+@media (max-width: 764px) {
+
+.img{
+	width: 300px;
+}
+
+.s1{
+	margin-left: -5rem;
+}
+
+.topic{
+margin-left: 5rem;
+}
+
+.topic1{
+margin-left: 0rem;
+}
+
+.writings{
+	font-size: 20px;
+}
+
+}
+
+
+		/* for small mobile vision */
+
+
+@media (max-width: 420px) {
+.img{
+	width: 250px;
+}
+.topic{
+margin-left: 3rem;
+font-size: 40px;
+}
+.writings{
+	font-size: 14px;
+}
+
+
+}
+
+
+ 					/* FOOTER START */
+
+
+.sixth-section{
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	margin-top: ;
+	color: white;
+}
+
+.r3 .img1{
+ 	width: 80px;
+ }
+
+ .p1{
+font-size: 15px;
+}
+
+.p3 .fa { 
+	color: #FFBC40;
+ }
+  .h1{
+ 	color: #FFBC40;
+ 	font-weight: bolder;
+ 	font-size: 20px;
+ 	padding-top: 2%;
+ }
+
+ .p4{
+ 	margin-left: 2rem;
+ }
+
+ .r3{
+ 	margin-left: 2rem;
+ }
+
+.p2{font-size: 20px;
+	font-weight: bolder;
+	color: #FFBC40;
+	padding-top: 1rem;
+}
+
+.r3 a{
+	color: #fff
+}
+
+  					/* FOOTER END */

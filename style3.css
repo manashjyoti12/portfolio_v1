@@ -1,0 +1,86 @@
+.s1{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-bottom: 5rem;
+	padding-top: 5%;
+}
+
+.r2{
+	margin-top: 3rem;
+}
+
+.topic{
+	padding-bottom: 3rem;
+	font-family: 'Kaushan Script', cursive;
+	color: #FFBC40;
+	font-size: 60px;
+	margin-left: 0rem;
+}
+
+.a a{
+	text-decoration: none;
+}
+
+
+		/*for tab version*/
+
+@media (max-width: 1000px) {
+
+.cards{
+	width:300px;
+}
+
+}
+
+
+
+
+ 					/* FOOTER START */
+
+
+.sixth-section{
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	margin-top: ;
+	color: white;
+}
+
+.r3 .img1{
+ 	width: 80px;
+ }
+
+ .p1{
+font-size: 15px;
+}
+
+.p3 .fa { 
+	color: #FFBC40;
+ }
+  .h1{
+ 	color: #FFBC40;
+ 	font-weight: bolder;
+ 	font-size: 20px;
+ 	padding-top: 2%;
+ }
+
+ .p4{
+ 	margin-left: 2rem;
+ }
+
+ .r3{
+ 	margin-left: 2rem;
+ }
+
+.p2{font-size: 20px;
+	font-weight: bolder;
+	color: #FFBC40;
+	padding-top: 1rem;
+}
+
+.r3 a{
+	color: #fff
+}
+
+  					/* FOOTER END */
