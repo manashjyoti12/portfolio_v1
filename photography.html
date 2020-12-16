@@ -24,8 +24,8 @@
   <link rel="stylesheet" type="text/css" href="style2.css">
 
 </head>
-<body>
-
+<body onload="myfunction()">
+  <div id="loading"></div>
 
 	        <!--nav bar start-->
 
@@ -137,7 +137,7 @@
                 <br><br>
                 <span class="h1">About</span>
                 
-                <div class="p1">adgewaeh rabe br Rwjbn ieifhqipvn nevheh pnoivb</div>
+                <div class="p1">Hi! I am a Web Developer</div>
                 <div class="p2">Contact</div>
 
                 <div class="p3"> <i class="fa fa-phone"></i><span class="l"> &nbsp+91 0123456789 &nbsp &nbsp</span> <br>
@@ -196,7 +196,21 @@
   </section>
 
 
-        <!-- footer END -->
+        <!-- footer END -->\
+
+
+<script type="text/javascript">
+  
+  var preloader = document.getElementById("loading");
+
+  function myfunction()
+  {
+    preloader.style.display = "none";
+  }
+
+
+</script>
+
 
 
 </body>
